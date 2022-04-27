@@ -11,6 +11,7 @@
 
 const fs = require('fs')
 const chalk = require('chalk')
+const fetch = require('node-fetch')
 
 //═══════[api website]════════\\
 global.APIs = {
@@ -22,17 +23,20 @@ global.APIKeys = {
 }
 
 //═══════[modification]════════\\
-global.owner = ['918590508376'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
-global.pemilik = ['918590508376'] //another owner number
-global.premium = ['918590508376'] //premium number
-global.pengguna = 'Xeon' //username
-global.botnma = 'Wizard Bot MD' //bot name
-global.ownernma = 'Ajmal Ser' //owner name
-global.packname = 'Wizard Bot' //sticker package name
-global.author = 'By Ajmal' //sticker author name
+global.owner = ['918113921898'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
+global.pemilik = ['918113921898'] //another owner number
+global.premium = ['918113921898'] //premium number
+global.pengguna = 'ɴᴇᴇʀᴀᴊ-x0' //username
+global.botnma = 'ᴍɪʟʟɪᴇ-ᴍᴅ' //bot name
+global.ownernma = 'ɴᴇᴇʀᴀᴊ-x0' //owner name
+global.packname = 'ɴᴇᴇʀᴀᴊ-x0' //sticker package name
+global.author = '💋 ᴍɪʟʟɪᴇ 💋' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
-global.sp = '⭔' //design
+global.sp = '├✪' //design
+global.gclink = 'https://chat.whatsapp.com/HZ4c5yrsd0g8OfELZGySFZ'
+global.gitowner = 'https://github.com/Neeraj-x0'
+global.sc = 'https://github.com/Neeraj-x0/Wizard-MD'
 global.mess = {
     success: 'Done ✓',
     admin: 'This Feature Is Only For Admin!',
@@ -48,7 +52,7 @@ global.limitawal = {
     premium: "Infinity", //premium user limit
     free: 100 //free user limit
 }
-global.thumb = fs.readFileSync('./XeonMedia/cheemspic.jpg')
+global.thumburl = 'https://i.pinimg.com/474x/de/bd/b2/debdb24645169bf95eecd49f3144315f.jpg'
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
