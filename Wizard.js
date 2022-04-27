@@ -2638,7 +2638,7 @@ case 'downloadmenu': {
 ╰━━━━━━━━━━━━━━
   `
   const message = {
-    image: { url: thumburl },
+    image: { url: dow },
     caption:anu,
     footer:botnma,
     templateButtons: [
@@ -2673,7 +2673,7 @@ break
 ╰━━━━━━━━━━━━━━
   `
   const message = {
-    image: { url: thumburl },
+    image: { url: sear },
     caption:anu,
     footer:botnma,
     templateButtons: [
@@ -2731,7 +2731,7 @@ case 'funmenu': {
 ├ ✪ ${prefix}math [mode] 
 ╰━━━━━━━━━━━━━━  `
 const message = {
-    image: { url: thumburl },
+    image: { url: fu },
     caption:anu,
     footer:botnma,
     templateButtons: [
@@ -2768,7 +2768,7 @@ case 'voicemenu': {
 ├ ✪ ${prefix}squirrel
 ╰━━━━━━━━━━━━━━`
 const message = {
-    image: { url: thumburl },
+    image: { url: voc },
     caption:anu,
     footer:botnma,
     templateButtons: [
@@ -2891,7 +2891,7 @@ case 'convertmenu': {
 ├ ✪ ${prefix}dbinary
 ╰━━━━━━━━━━━━━━  `
 const message = {
-    image: { url: thumburl },
+    image: { url: conv },
     caption:anu,
     footer:botnma,
     templateButtons: [
@@ -2928,7 +2928,7 @@ case 'nocategorymenu': {
 ├ ✪ ${prefix}report (report bug to owner)
 ╰━━━━━━━━━━━━━━  `
 const message = {
-    image: { url: thumburl },
+    image: { url: misc },
     caption:anu,
     footer:botnma,
     templateButtons: [
@@ -2962,7 +2962,7 @@ case 'databasemenu': {
 ├ ✪ ${prefix}delmsg
 ╰━━━━━━━━━━━━━━  `
 const message = {
-    image: { url: thumburl },
+    image: { url: dat },
     caption:anu,
     footer:botnma,
     templateButtons: [
@@ -2991,7 +2991,7 @@ case 'anonymouschatmenu': {
 ├ ✪ ${prefix}stop ( stop Anonymous chat )
 ╰━━━━━━━━━━━━━━	`
 const message = {
-    image: { url: thumburl },
+    image: { url: ano },
     caption:anu,
     footer:botnma,
     templateButtons: [
@@ -3020,7 +3020,7 @@ case 'sistemmenu': {
 ├ ✪ ${prefix}antiwame On/Off
 ╰━━━━━━━━━━━━━━`
 const message = {
-    image: { url: thumburl },
+    image: { url: syst },
     caption:anu,
     footer:botnma,
     templateButtons: [
@@ -3054,7 +3054,7 @@ break
 ├ ✪ ${prefix}bcall
 ╰━━━━━━━━━━━━━━  `
 const message = {
-    image: { url: thumburl },
+    image: { url: speci },
     caption:anu,
     footer:botnma,
     templateButtons: [
@@ -3301,7 +3301,7 @@ break
        // Wizard.sendMessage(m.chat, { e, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": thumburlf,"sourceUrl": "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"}}}, { quoted: m})
        Wizard.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Report' }, type: 1 }],`𝗨𝗵𝗼𝗵! 𝗮𝗻 𝗲𝗿𝗿𝗼𝗿 𝗢𝗰𝗰𝘂𝗿𝗲𝗱
        𝗘𝗿𝗿𝗼𝗿 : ${e}
-       `,'ᴍɪʟʟɪᴇ')
+       `,'ᴡɪᴢᴀʀᴅ')
         Wizard.sendButtonText('120363022211098165@g.us', [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Ok' }, type: 1 }], `𝗨𝗵𝗼𝗵! 𝗮𝗻 𝗲𝗿𝗿𝗼𝗿 𝗢𝗰𝗰𝘂𝗿𝗲𝗱 
       
         𝗘𝗿𝗿𝗼𝗿 : ${e}
@@ -3313,7 +3313,7 @@ break
            • 𝗦𝗲𝗿𝘃𝗲𝗿 𝗘𝗿𝗿𝗼𝗿
            • 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 𝗘𝗿𝗿𝗼𝗿𝘀
            • 𝗘𝗿𝗿𝗼𝗿 𝗮𝘁 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿𝘀 𝗘𝗻𝗱
-           • 𝗗𝗮𝘁𝗮 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗜𝘀𝘀𝘂𝗲𝘀 `, 'ᴍɪʟʟɪᴇ', m)
+           • 𝗗𝗮𝘁𝗮 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗜𝘀𝘀𝘂𝗲𝘀 `, 'ᴡɪᴢᴀʀᴅ', m)
         
       }
 }
