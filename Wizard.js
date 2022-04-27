@@ -1206,29 +1206,9 @@ case 'antilink':
                                 urlButton: {
                                     displayText: 'ɢɪᴛʜᴜʙ',
                                     url: sc
-                                }
-                            }, {
-                                callButton: {
-                                    displayText: 'ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ',
-                                    phoneNumber: `+${owner[0]}`
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'ʙᴏᴛ sᴛᴀᴛᴜs',
-                                    id: 'ping'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'ᴏᴡɴᴇʀ',
-                                    id: 'owner'
-                                }  
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'sᴄʀɪᴘᴛ',
-                                    id: 'sc'
-                                }
+                                }   
                             }]
-                      fatihgans = thumburlf
+                      fatihgans = br
                       let txt = `「 ${botnma} ʙʀᴏᴀᴅᴄᴀsᴛ 」\n\n${text}`
                       Wizard.send5ButImg(i, txt, Wizard.user.name, fatihgans, btn)
                     }
@@ -1253,7 +1233,7 @@ case 'antilink':
                                     id: 'owner'
                                 }
                             }]
-                      fatihgans = thumburlf
+                      fatihgans = br
                       let txt = `「 ${botnma} ʙʀᴏᴀᴅᴄᴀsᴛ 」\n\n${text}`
                       Wizard.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
@@ -2369,47 +2349,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
-                    break 
-case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'Wizard': case 'doge':{
-alive = `ʜɪ ${pushname}
-ᴍɪʟʟɪᴇ ᴡɪᴛʜ ʏᴏᴜ ғᴏʀᴇᴠᴇʀ!!`
-const message = {
-            image: { url: thumburl },
-            caption: alive,
-            footer: botnma,
-            templateButtons: [
-                {
-                    urlButton: {
-                        displayText: 'ɢɪᴛʜᴜʙ',
-                        url: gitowner
-                    }
-                }, {
-                    urlButton: {
-                    displayText: 'sᴄʀɪᴘᴛ',
-                        url: sc
-                    }
-                }, {
-                    quickReplyButton: {
-                        displayText: 'ᴀʟʟ ᴍᴇɴᴜ',
-                        id: `${prefix}allmenu`
-                    }
-                    }, {
-                    quickReplyButton: {
-                        displayText: 'ʟɪsᴛ ᴍᴇɴᴜ',
-                        id: `${prefix}command`
-                    }
-                    }, {
-                    quickReplyButton: {
-                        displayText: 'ᴏᴡɴᴇʀ',
-                        id: `${prefix}owner`
-                    }
-                }
-            ]
-        }
-        return await Wizard.sendMessage(m.chat, message)
-    }
-break
-
+                    break
             case 'list': case 'menu': case 'help': case '?': 
             timestampe = speed();
             latensie = speed() - timestampe
@@ -2421,15 +2361,34 @@ break
 How Are You? 😊
                 
                 
-❏「 INFO BOT 」
-                
-𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botnma}
-𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownernma}
-𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner[0]}
-𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+╭━❑ 𝙈𝙀𝙉𝙐 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙇
+│き⃟ 👽             OLÁ 
+│き⃟🤖 bem vindo ao menu primario
+│き⃟💀 escolha algo que vc queira abaixo 
+│╮
+││𝐙   𝐀   𝐋   𝐓   𝐒💎
+││𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐎𝐄𝐒 ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+│╯
+│
+│⌔➛Bot: ᴡɪᴢᴀʀᴅ ᴍᴅ
+│⌔➛Owner: ᴀᴊᴍᴀʟ sᴇʀ
+╰━━•ೋೋ•━━╮
+ ╭━━•ೋೋ•━━╯
+ │
+ │╭═─═─═─ • ⏄ • ─═─═─═╮
+ ││            『 *INFO MENU* 』            │
+ │╰═─═─═─ • ⏄ • ─═─═─═╯
+ │❏「 INFO BOT 」
+ │               
+ │ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+ │ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+ │ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botnma}
+ │ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownernma}
+ │ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner[0]}
+ │ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+ │ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+ │
+ ╰━━•ೋೋ•━━
                 
                 
 Please Select Button Below
@@ -3079,132 +3038,132 @@ break
      *All Menu*
   
 ╭━━━  Group Menu
-├ ✪ ${prefix}grouplink
-├ ✪ ${prefix}ephemeral [option]
-├ ✪ ${prefix}setgrouppp
-├ ✪ ${prefix}setname [text]
-├ ✪ ${prefix}group [option]
-├ ✪ ${prefix}editinfo [option]
-├ ✪ ${prefix}grupinfo
-├ ✪ ${prefix}add @user
-├ ✪ ${prefix}kick @user
-├ ✪ ${prefix}promote @user
-├ ✪ ${prefix}demote @user
+⭔ ${prefix}grouplink
+⭔ ${prefix}ephemeral [option]
+⭔ ${prefix}setgrouppp
+⭔ ${prefix}setname [text]
+⭔ ${prefix}group [option]
+⭔ ${prefix}editinfo [option]
+⭔ ${prefix}grupinfo
+⭔ ${prefix}add @user
+⭔ ${prefix}kick @user
+⭔ ${prefix}promote @user
+⭔ ${prefix}demote @user
 ╰━━━━━━━━━━━━━━
 
 ╭━━━  Download Menu
-├ ✪ ${prefix}tiktoknowm [url]
-├ ✪ ${prefix}tiktokwm [url]
-├ ✪ ${prefix}tiktokmp3 [url]
-├ ✪ ${prefix}instagram [url]
-├ ✪ ${prefix}ig2 [url]
-├ ✪ ${prefix}igreels [url]
-├ ✪ ${prefix}igtv [url]
-├ ✪ ${prefix}twitter [url]
-├ ✪ ${prefix}twittermp3 [url]
-├ ✪ ${prefix}ytmp3 [url]
-├ ✪ ${prefix}ytmp4 [url]
-├ ✪ ${prefix}getmusic [query]
-├ ✪ ${prefix}getvideo [query
+⭔ ${prefix}tiktoknowm [url]
+⭔ ${prefix}tiktokwm [url]
+⭔ ${prefix}tiktokmp3 [url]
+⭔ ${prefix}instagram [url]
+⭔ ${prefix}ig2 [url]
+⭔ ${prefix}igreels [url]
+⭔ ${prefix}igtv [url]
+⭔ ${prefix}twitter [url]
+⭔ ${prefix}twittermp3 [url]
+⭔ ${prefix}ytmp3 [url]
+⭔ ${prefix}ytmp4 [url]
+⭔ ${prefix}getmusic [query]
+⭔ ${prefix}getvideo [query
 ╰━━━━━━━━━━━━━━  
 
 ╭━━━  Search Menu
-├ ✪ ${prefix}play [query]
-├ ✪ ${prefix}yts [query]
-├ ✪ ${prefix}google [query]
-├ ✪ ${prefix}gimage [query]
-├ ✪ ${prefix}pinterest [query]
-├ ✪ ${prefix}wallpaper [query]
-├ ✪ ${prefix}wikimedia [query]
-├ ✪ ${prefix}ytsearch [query]
+⭔ ${prefix}play [query]
+⭔ ${prefix}yts [query]
+⭔ ${prefix}google [query]
+⭔ ${prefix}gimage [query]
+⭔ ${prefix}pinterest [query]
+⭔ ${prefix}wallpaper [query]
+⭔ ${prefix}wikimedia [query]
+⭔ ${prefix}ytsearch [query]
 ╰━━━━━━━━━━━━━━
 
 ╭━━━  Random Menu
-├ ✪ ${prefix}coffee
-├ ✪ ${prefix}couplepp
+⭔ ${prefix}coffee
+⭔ ${prefix}couplepp
 ╰━━━━━━━━━━━━━━
 
 ╭━━━  Fun Menu
-├ ✪ ${prefix}couple
-├ ✪ ${prefix}mysoulmate
-├ ✪ ${prefix}math [mode]  
+⭔ ${prefix}couple
+⭔ ${prefix}mysoulmate
+⭔ ${prefix}math [mode]  
 ╰━━━━━━━━━━━━━━
 
 ╭━━━  Voice Changer Menu
-├ ✪ ${prefix}bass
-├ ✪ ${prefix}blown
-├ ✪ ${prefix}deep
-├ ✪ ${prefix}earrape
-├ ✪ ${prefix}fast
-├ ✪ ${prefix}fat
-├ ✪ ${prefix}nightcore
-├ ✪ ${prefix}reverse
-├ ✪ ${prefix}robot
-├ ✪ ${prefix}slow
-├ ✪ ${prefix}squirrel
+⭔ ${prefix}bass
+⭔ ${prefix}blown
+⭔ ${prefix}deep
+⭔ ${prefix}earrape
+⭔ ${prefix}fast
+⭔ ${prefix}fat
+⭔ ${prefix}nightcore
+⭔ ${prefix}reverse
+⭔ ${prefix}robot
+⭔ ${prefix}slow
+⭔ ${prefix}squirrel
 ╰━━━━━━━━━━━━━━
 
 ╭━━━  Convert Menu
-├ ✪ ${prefix}toimage
-├ ✪ ${prefix}removebg
-├ ✪ ${prefix}sticker
-├ ✪ ${prefix}emojimix
-├ ✪ ${prefix}tovideo
-├ ✪ ${prefix}togif
-├ ✪ ${prefix}tourl
-├ ✪ ${prefix}ebinary
-├ ✪ ${prefix}dbinary
+⭔ ${prefix}toimage
+⭔ ${prefix}removebg
+⭔ ${prefix}sticker
+⭔ ${prefix}emojimix
+⭔ ${prefix}tovideo
+⭔ ${prefix}togif
+⭔ ${prefix}tourl
+⭔ ${prefix}ebinary
+⭔ ${prefix}dbinary
 ╰━━━━━━━━━━━━━━
 
 ╭━━━  Misc Menu
-├ ✪ ${prefix}ping
-├ ✪ ${prefix}owner
-├ ✪ ${prefix}donate
-├ ✪ ${prefix}menu / ${prefix}help / ${prefix}?
-├ ✪ ${prefix}delete
-├ ✪ ${prefix}chatinfo
-├ ✪ ${prefix}quoted
-├ ✪ ${prefix}listpc
-├ ✪ ${prefix}listgc
-├ ✪ ${prefix}listonline
-├ ✪ ${prefix}report (report bug to owner)
+⭔ ${prefix}ping
+⭔ ${prefix}owner
+⭔ ${prefix}donate
+⭔ ${prefix}menu / ${prefix}help / ${prefix}?
+⭔ ${prefix}delete
+⭔ ${prefix}chatinfo
+⭔ ${prefix}quoted
+⭔ ${prefix}listpc
+⭔ ${prefix}listgc
+⭔ ${prefix}listonline
+⭔ ${prefix}report (report bug to owner)
 ╰━━━━━━━━━━━━━━
 
 ╭━━━  Database Menu
-├ ✪ ${prefix}setcmd
-├ ✪ ${prefix}listcmd
-├ ✪ ${prefix}delcmd
-├ ✪ ${prefix}lockcmd
-├ ✪ ${prefix}addmsg
-├ ✪ ${prefix}listmsg
-├ ✪ ${prefix}getmsg
-├ ✪ ${prefix}delmsg
+⭔ ${prefix}setcmd
+⭔ ${prefix}listcmd
+⭔ ${prefix}delcmd
+⭔ ${prefix}lockcmd
+⭔ ${prefix}addmsg
+⭔ ${prefix}listmsg
+⭔ ${prefix}getmsg
+⭔ ${prefix}delmsg
 ╰━━━━━━━━━━━━━━
 
 ╭━━━  Anonymous Menu
-├ ✪ ${prefix}start ( Start Chat )
-├ ✪ ${prefix}next ( Next user )
-├ ✪ ${prefix}stop ( stop Anonymous chat )
+⭔ ${prefix}start ( Start Chat )
+⭔ ${prefix}next ( Next user )
+⭔ ${prefix}stop ( stop Anonymous chat )
 ╰━━━━━━━━━━━━━━
 
 ╭━━━  System Menu
-├ ✪ ${prefix}antilink On/Off
-├ ✪ ${prefix}mute On/Off
-├ ✪ ${prefix}antiwame On/Off
+⭔ ${prefix}antilink On/Off
+⭔ ${prefix}mute On/Off
+⭔ ${prefix}antiwame On/Off
 ╰━━━━━━━━━━━━━━  
 
 ╭━━━  Owner Menu
-├ ✪ ${prefix}chat [option]
-├ ✪ ${prefix}join [link]
-├ ✪ ${prefix}leave
-├ ✪ ${prefix}setbotpp
-├ ✪ ${prefix}block @user
-├ ✪ ${prefix}unblock @user
-├ ✪ ${prefix}bcgroup
-├ ✪ ${prefix}bcall
+⭔ ${prefix}chat [option]
+⭔ ${prefix}join [link]
+⭔ ${prefix}leave
+⭔ ${prefix}setbotpp
+⭔ ${prefix}block @user
+⭔ ${prefix}unblock @user
+⭔ ${prefix}bcgroup
+⭔ ${prefix}bcall
 ╰━━━━━━━━━━━━━━`
 const message = {
-    image: { url: thumburl },
+    image: { url: menall },
     caption:anu,
     footer:botnma,
     templateButtons: [
@@ -3214,9 +3173,24 @@ const message = {
                 url: gitowner
             }
         },{
-            quickReplyButton: {
+            urlButton: {
+                displayText: 'sᴄʀɪᴘᴛ',
+                url: sc
+            }
+        },   {
+            urlButton: {
                 displayText: 'ᴏᴡɴᴇʀ',
-                id: `${prefix}owner`
+                url: 'wa.me/918590508376'
+            }
+        }, {
+            quickReplyButton: {
+                displayText: 'ɴɪᴄᴇ♥️',
+                id: ``
+            }
+        },{
+            quickReplyButton: {
+                displayText: 'ʟɪsᴛ ᴍᴇɴᴜ✨',
+                id: `${prefix}commands`
             }
         }
     ]
@@ -3226,10 +3200,12 @@ return await Wizard.sendMessage(m.chat, message)
 break
 case 'tqtt': 
 reply(`Thanks to
-LORD BUDDHA
-Xeon (Me)
-My family
-And all friends who helped assemble this sexy script !!!`)
+❤︎ ᴀᴊᴍᴀʟ
+♥︎ ʙᴀʀɪsʜ
+♥︎ ɴᴇᴇʀᴀᴊ
+♥︎ ᴊᴇᴇᴠᴀɴ
+
+ʟᴏᴠᴇ ʏᴏᴜ ᴀʟʟ!!!!!!`)
 break
             default:
                 if (budy.startsWith('=>')) {
