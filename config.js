@@ -53,6 +53,7 @@ global.limitawal = {
     free: 100 //free user limit
 }
 global.thumburl = 'https://telegra.ph/file/1c76c40e54e96bd51708a.jpg'
+global.br = 'https://telegra.ph/file/8c1c4ddb2c855e6ba78f9.jpg'
 global.menall = 'https://telegra.ph/file/713e4149b9d5f897f429a.jpg'
 global.dow = 'https://telegra.ph/file/a742cbdc64d6c6303cd96.jpg'
 global.sear = 'https://telegra.ph/file/68dbbad242888b38fff03.jpg'
