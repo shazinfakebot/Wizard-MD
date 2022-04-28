@@ -2355,7 +2355,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
             latensie = speed() - timestampe
             anu = ``
             const message = {
-            image: { url: thumburl },
+            image: { url: wizlogo },
             caption: anu,
             footer:`Hi 🤚 ${pushname}
 How Are You? 😊
