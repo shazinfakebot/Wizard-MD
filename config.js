@@ -1,12 +1,5 @@
 //═══════[© 2022 Xeon Bot Inc.]════════\\
 
-//~you can re-upload but tag my channel
-//or put my channel link in the description.
-//~you can recode or copy the codes but give
-//credit.
-//~Thank you to LORD BUDDHA, ME AND MY 
-//FAMILY.
-
 //═══════[modules]════════\\
 
 const fs = require('fs')
@@ -34,7 +27,7 @@ global.author = 'ʙʏ ᴀᴊᴍᴀʟ' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '├✪' //design
-global.gclink = 'https://chat.whatsapp.com/HZ4c5yrsd0g8OfELZGySFZ'
+global.gclink = 'https://chat.whatsapp.com/CWEacBdRZgu9m5PypxTqNt'
 global.gitowner = 'https://github.com/Ajmal-Achu'
 global.sc = 'https://github.com/Ajmal-Achu/Wizard-MD'
 global.mess = {
